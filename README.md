@@ -13,6 +13,7 @@ grabs all networks with specific Tag
 
 To run this script -
 1. Download dependencies from requirements.txt
-2. add your Meraki API key under .env file
-3. follow the prompt to enter number by the organization you want to run this script on
-4. enter the name of the network tag you would like to run this script against.
+2. create a .env file in your directory where python script is downloaded
+3. add your Meraki API key under .env file like this - MERAKI_API_TOKEN="<API KEY>"
+4. follow the prompt to enter number by the organization you want to run this script on
+5. enter the name of the network tag you would like to run this script against.
